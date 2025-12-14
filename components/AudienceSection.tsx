@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building2, Users2, BriefcaseBusiness, Store } from 'lucide-react';
+import { Building2, Users2, Briefcase, Store } from 'lucide-react';
 
 export const AudienceSection: React.FC = () => {
   const targets = [
@@ -9,7 +9,7 @@ export const AudienceSection: React.FC = () => {
       desc: "Ferramentas robustas para processos seletivos de alto volume e complexidade."
     },
     {
-      icon: <BriefcaseBusiness size={32} />,
+      icon: <Briefcase size={32} />,
       title: "Recrutadores Independentes",
       desc: "Agilidade para fechar vagas de clientes e banco de talentos sempre à mão."
     },
